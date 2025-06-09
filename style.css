@@ -6,26 +6,27 @@
 }
 
 :root {
-    --primary: #5d8569;
-    --secondary: #27ae60;
-    --accent: #e74c3c;
-    --light: #ecf0f1;
-    --dark: #34495e;
+    --primary: #8b6b61;
+    --secondary: #d7ccc8;
+    --accent: #a1887f;
+    --light: #efebe9;
+    --dark: #5d4037;
 }
 
 body {
-    background-color: #f8f9fa;
+    background-color: #f5f5f5;
     color: #333;
     line-height: 1.6;
 }
 
 #logot {
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
 }
 
-/* Навигация */
+/* Шапка */
 header {
-    background-color: var(--primary);
+    background-color: var(--dark);
     position: fixed;
     width: 100%;
     top: 0;
@@ -69,7 +70,7 @@ nav {
             color: var(--secondary);
         }
 
-/* Секции */
+/* Основной контент */
 section {
     padding: 100px 5%;
     min-height: 100vh;
@@ -79,7 +80,7 @@ section {
 }
 
 .hero {
-    background: linear-gradient(135deg, rgba(44,62,80,0.9) 0%, rgba(39,174,96,0.8) 100%), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3') no-repeat center/cover;
+    background: linear-gradient(135deg, rgba(93,64,55,0.9) 0%, rgba(141,110,99,0.8) 100%), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3') no-repeat center/cover;
     color: white;
     text-align: center;
 }
@@ -98,7 +99,7 @@ h1 {
 h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: var(--primary);
+    color: var(--dark);
     position: relative;
 }
 
@@ -109,7 +110,7 @@ h2 {
         left: 0;
         width: 70px;
         height: 4px;
-        background: var(--secondary);
+        background: var(--accent);
     }
 
 p {
@@ -126,14 +127,14 @@ p {
 
 .btn {
     display: inline-block;
-    background: var(--secondary);
+    background: var(--accent);
     color: white;
     padding: 12px 30px;
     border-radius: 30px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--accent);
     margin-top: 20px;
 }
 
@@ -196,7 +197,7 @@ p {
 
 .service-icon {
     font-size: 3rem;
-    color: var(--secondary);
+    color: var(--accent);
     margin-bottom: 20px;
     cursor: pointer;
     opacity: 0.3;
@@ -213,7 +214,7 @@ p {
     color: var(--dark);
 }
 
-/* Галерея */
+/* Номера */
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -239,6 +240,18 @@ p {
     .gallery-item:hover img {
         transform: scale(1.1);
     }
+
+.room-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(93, 64, 55, 0.8);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
 
 .hidden-code {
     display: none;
