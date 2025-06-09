@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary: #8b6b61;
+    --primary: #93c47d;
     --secondary: #d7ccc8;
     --accent: #a1887f;
     --light: #efebe9;
@@ -24,7 +24,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Шапка */
+/* ГГ ГЇГЄГ  */
 header {
     background-color: var(--dark);
     position: fixed;
@@ -70,7 +70,7 @@ nav {
             color: var(--secondary);
         }
 
-/* Основной контент */
+/* ГЋГ±Г­Г®ГўГ­Г®Г© ГЄГ®Г­ГІГҐГ­ГІ */
 section {
     padding: 100px 5%;
     min-height: 100vh;
@@ -168,7 +168,7 @@ p {
         transform: scale(1.05);
     }
 
-/* Услуги */
+/* Г“Г±Г«ГіГЈГЁ */
 .services {
     background-color: var(--light);
 }
@@ -214,7 +214,7 @@ p {
     color: var(--dark);
 }
 
-/* Номера */
+/* ГЌГ®Г¬ГҐГ°Г  */
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
