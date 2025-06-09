@@ -23,7 +23,7 @@ body {
     font-family: 'Comic Sans MS', sans-serif;
 }
 
-/* Навигация */
+/* ГЌГ ГўГЁГЈГ Г¶ГЁГї */
 header {
     background-color: var(--primary);
     position: fixed;
@@ -69,7 +69,7 @@ nav {
             color: var(--secondary);
         }
 
-/* Секции */
+/* Г‘ГҐГЄГ¶ГЁГЁ */
 section {
     padding: 100px 5%;
     min-height: 100vh;
@@ -167,7 +167,7 @@ p {
         transform: scale(1.05);
     }
 
-/* Услуги */
+/* Г“Г±Г«ГіГЈГЁ */
 .services {
     background-color: var(--light);
 }
@@ -213,7 +213,7 @@ p {
     color: var(--dark);
 }
 
-/* Галерея */
+/* ГѓГ Г«ГҐГ°ГҐГї */
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
